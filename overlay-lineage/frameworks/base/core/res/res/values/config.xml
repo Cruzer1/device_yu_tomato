@@ -27,6 +27,9 @@
          config to 7. -->
     <integer name="config_deviceHardwareKeys">71</integer>
 
+    <!-- Custom button brightness -->
+    <bool name="config_button_brightness_support">true</bool>
+
     <!-- Hardware keys present on the device with the ability to wake, stored as a bit field.
          This integer should equal the sum of the corresponding value for each
          of the following keys present:
@@ -64,9 +67,7 @@
          policy/src/com/android/internal/policy/impl/PhoneWindowManager.java
     -->
     <integer name="config_doubleTapOnHomeBehavior">0</integer>
- <!-- Enable Custom Button Brightness -->
-<bool name="config_deviceHasVariableButtonBrightness">true</bool>
-     
+      
      
     <!-- Base "touch slop" value used by ViewConfiguration as a
          movement threshold where scrolling should begin. -->
