@@ -7,8 +7,6 @@ persist.vendor.audio.fluence.speaker=false
 #Camera
 persist.camera.cpp.duplication=false 
 persist.camera.hal.debug.mask=0 
-media.stagefright.legacyencoder=true
-media.stagefright.less-secure=true
 
 # Radio
     DEVICE_PROVISIONED=1 
